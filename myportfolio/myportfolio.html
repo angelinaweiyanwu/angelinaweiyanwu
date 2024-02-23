@@ -7,6 +7,7 @@
         <title>Angelina Wei Yan Wu - Portfolio</title>
         <link rel="stylesheet" href="styles.css">
         <style>
+            <!--Hintergrund-->
             body{margin: 0;
                 padding:0;
             }
@@ -22,6 +23,7 @@
             #bottom{background-color: #e5d3b3;
                 padding: 200px;
             }
+            <!--navigationsbar-->
             nav ul {
                 list-style: none;
                 margin: 0;
@@ -35,6 +37,15 @@
                 margin: 0.5em;
                 padding: 0;
                 font-size: 1.5em;
+            }
+            @media (min-width:45em){
+                nav ul{
+                    flex-direction: row;
+                }
+                nav li {
+                    flex:1;
+                    front: size 1em;
+                }
             }
         </style>
     </head>
