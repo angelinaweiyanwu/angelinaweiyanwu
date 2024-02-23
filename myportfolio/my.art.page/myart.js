@@ -1,4 +1,4 @@
-Splitting();
-setTimeout(() => {
-    myart.querySelector(".card")(".focus");
-},1500);
+//Splitting();
+//setTimeout(() => {
+  //  myart.querySelector(".card")(".focus");
+//},1500);
