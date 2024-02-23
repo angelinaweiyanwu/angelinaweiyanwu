@@ -1,5 +1,6 @@
-<!--Hintergrund-->
-body{margin: 0;
+/*<!--Hintergrund-->*/
+body {
+    margin: 0;
     padding:0;
     border: 0;
 }
@@ -18,7 +19,7 @@ body{margin: 0;
     padding: 200px;
     margin: 0;
 }
-<!--navigationsbar-->
+/*<!--navigationsbar-->*/
 header{
     align-items: flex-end;
 
@@ -35,7 +36,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     border: thin dotted;
-    margin-right: 700px;
+    margin-right: 500px;
 }
 nav li{
     list-style: none;
@@ -46,7 +47,7 @@ nav li{
     
    
 }
-@media (min-width:1em){
+@media (min-width:2em){
     nav ul{
         flex-direction: row;
     }
