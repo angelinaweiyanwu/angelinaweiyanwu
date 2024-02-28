@@ -110,4 +110,18 @@ font-size: 1rem;
                   background-color: var(--overlay);
                   mix-blend-mode: multiply;
                 }
+                & img {
+                    width: inherit;
+                    height: inherit;
+                    object-fit: cover;
+                    filter: grayscale(100%);
+                  }
+                  }
+                  
+                  @keyframes image {
+                  100% {
+                    opacity: 1;
+                    width: 300px;
+                    transform: translateX(0);
+                  }
             }
