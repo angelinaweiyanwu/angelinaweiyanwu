@@ -1,4 +1,4 @@
-onst indexes = document.querySelectorAll(".indexes li");
+const indexes = document.querySelectorAll(".indexes li");
 const tabs = document.querySelectorAll(".tab");
 const contents = document.querySelectorAll(".tab-content");
 
