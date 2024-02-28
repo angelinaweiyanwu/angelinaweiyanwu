@@ -36,3 +36,17 @@ main {
         gap: 2rem;
       }
       }
+      .indexes,
+.tabs {
+list-style-type: none;
+}
+
+.indexes {
+font-size: 1rem;
+
+& li {
+  padding: 1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+}
