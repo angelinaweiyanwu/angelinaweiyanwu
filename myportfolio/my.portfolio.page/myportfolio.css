@@ -1,4 +1,33 @@
-/*<!--Hintergrund-->*/
+
+/*navigationsbar*/
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 65px;
+    align-items: center;
+    padding: 40px;
+
+}
+nav{
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav a {
+text-decoration: none;
+border-radius: 0.3em;
+color:white ;
+background-color: #664229;
+
+}
+/* --- */
 body {
     margin: 0;
     padding:0;
@@ -19,31 +48,7 @@ body {
     padding: 200px;
     margin: 0;
 }
-/*<!--navigationsbar-->*/
-header{
-    align-items: flex-end;
 
-}
-nav{
-    display: flex;
-    font-weight: 700;
-    text-decoration: none;
-    
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    border: thin dotted;
-    gap: 10px;
-}
-nav a {
-text-decoration: none;
-border-radius: 0.3em;
-color:white ;
-background-color: #664229;
-
-}
 
 h1{
     font-family:'Times New Roman', Times, serif;
