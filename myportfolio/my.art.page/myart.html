@@ -1,57 +1,48 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Angelina Wei Yan Wu - My Art</title>
-        <link rel="stylesheet" href="myart.css">
-        <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    </head>
-<body>
-    <header>
-        <h1>My Art</h1>
-        <nav>
-            <ul>
-                    <li><a href="..\my.portfolio.page\myportfolio.html">Portfolio</a></li>
-                    <li><a href="..\my.art.page\myart.html">Art</a></li>
-                    <li><a href="..\my.project.page\myprojects.html">Projects</a></li>
-                    <li><a href="..\my.contact.page\contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main id="main">
-        <div class="card" tabindex="0">
-          <img
-            src="ArtPicture/theseagivestheseatakes.jpg"
-            alt="DRAWING : The sea gives and the sea takes."/>
-          <div class="text">
-            <h2 data-splitting="">The sea gives and the sea takes.</h2>
-            <p data-splitting="">
-
-                WE died, both YOU and I have returned to the sea.
-                I was initially happy to have found you, 
+    <title>My Art</title>
+    <link rel="stylesheet" href="myart.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h2><span>Table</span> of content</h2>
+      </header>
+      <section>
+        <ul class="indexes">
+          <li data-index="0">01</li>
+          <li data-index="1">02</li>
+          <li data-index="2">03</li>
+          <li data-index="3">04</li>
+        </ul>
+        <ul class="tabs">
+          <li class="tab">
+            <article class="tab-content">
+              <h3>The sea gives and the sea takes</h3>
+              <p>
+                WE died, 
+                both YOU and I have returned to the sea.
+                I was initially happy to have found you,
                 but I am now even more grateful for your departure.
                 There are countless fish in the sea, 
-                and we did not belong to each other.
+                and we did not belong to each other. 
                 We have reached a point where we must part ways 
-                and embark on separate paths.On these individual journeys,
+                and embark on separate paths.On these individual journeys, 
                 we will grow and eventually find our soulmates.
-                This marks our farewell.
                 <br>
-                By Angelina Wei Yan Wu
-                
-            </p>
-          </div>
-        </div>
-    
-
-            <footer>
-                <p>&copy; 2024 Angelina Wu. All rights reserved.</p>
-            </footer>
+                This marks our farewell.
+              </p>
+            </article>
+            <div class="tab-image">
+              <img src="theseagivestheseatakes.jpg" />
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
-    <script src="index.js"></script>
-</body>
+    <script src="myart.js"></script>
+  </body>
 </html>
