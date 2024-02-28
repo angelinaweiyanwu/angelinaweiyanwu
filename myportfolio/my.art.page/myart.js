@@ -17,3 +17,13 @@ function showTab(i) {
     tabs[i].classList.add("active");
     contents[i].classList.add("active");
   }
+  function activate(e) {
+    if (!e.target.matches(".indexes li")) return;
+    reset();
+    showTab(e.target.dataset.index);
+  }
+  
+  const init = () => showTab(0);
+  
+  window.addEventListener("load", init, false);
+  window.addEventListener("click", activate, false);
