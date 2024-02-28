@@ -3,7 +3,12 @@
 
   }
   header{
-    align-items: flex-end;
+    align-items: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 65px;
+    align-items: center;
+    padding: 40px;
 
 }
 nav{
