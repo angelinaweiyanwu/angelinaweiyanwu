@@ -132,8 +132,6 @@ transform: translateY(-5rem);
 .tab-image {
 position: absolute;
 right: 1rem;
-width: 200px;
-height: 200px;
 opacity: 0;
 transform: translateX(2rem);
 
@@ -149,7 +147,6 @@ transform: translateX(2rem);
   width: inherit;
   height: inherit;
   object-fit: cover;
-  filter: grayscale(100%);
 }
 }
 
