@@ -1,0 +1,18 @@
+:root {
+    --primary: #987554;
+  }
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+height: 100vh;
+display: grid;
+place-items: center;
+background-color:black;
+color: rgba(255, 255, 255, 0.85);
+}
+
