@@ -63,3 +63,29 @@ font-size: 1rem;
     background-color: black;
     overflow: hidden;
     }
+    tab-content {
+        position: relative;
+        z-index: 5;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+        opacity: 0;
+        transform: translateY(-5rem);
+        & h3 {
+            font-family: helvetica;
+            font-weight: 900;
+            font-size: 1rem;
+            border-bottom: 1.5px solid white;
+            padding-bottom: 1rem;
+          }
+          
+          & p {
+            font-family: helvetica;
+            font-weight: 100;
+            line-height: 2;
+            color: rgba(255, 255, 255, 0.7);
+          }
+          
+          }
