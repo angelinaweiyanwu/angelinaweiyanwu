@@ -1,6 +1,5 @@
 :root {
     --primary: #987554;
-    --overlay:#987554;
   }
 
 *{
@@ -108,7 +107,6 @@ font-size: 1rem;
                   content: "";
                   position: absolute;
                   inset: 0;
-                  background-color: var(--overlay);
                   mix-blend-mode: multiply;
                 }
                 & img {
