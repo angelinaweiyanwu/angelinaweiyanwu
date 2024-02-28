@@ -32,46 +32,17 @@ nav{
 }
 nav ul {
     list-style: none;
-    margin: 0;
-    padding:0;
     display: flex;
     align-items: center;
     border: thin dotted;
-    margin-right: 500px;
     gap: 10px;
 }
-nav li{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    justify-content: center;
-    text-decoration: none;
-    
-   
-}
-@media (min-width:2em){
-    nav ul{
-        flex-direction: row;
-    }
-    nav li {
-        flex:1;
-        font-size: 1em;
-    }
-}
 nav a {
-display: flex;
-flex-direction: row;
-padding: 0.5em;
 text-decoration: none;
-font-weight: bold;
-border: none;
-border-radius: 0.4em;
+border-radius: 0.3em;
 color:white ;
 background-color: #664229;
-transition: all .25s ease-in;
-width: 65px;
-justify-content: center;
+
 }
 
 h1{
