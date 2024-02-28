@@ -50,3 +50,16 @@ font-size: 1rem;
   cursor: pointer;
 }
 }
+.tabs {
+    position: relative;
+    }
+    
+    .tab {
+    position: absolute;
+    display: flex;
+    width: 530px;
+    height: 225px;
+    opacity: 0;
+    background-color: black;
+    overflow: hidden;
+    }
