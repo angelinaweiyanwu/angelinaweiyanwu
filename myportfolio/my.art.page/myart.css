@@ -16,3 +16,23 @@ background-color:black;
 color: rgba(255, 255, 255, 0.85);
 }
 
+main {
+    width: 600px;
+    height: 300px;
+    font: 0.7rem impact, sans-serif;
+    
+    & header {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      margin-bottom: 2.25rem;
+      color: white;
+    
+      & span {
+        color: var(--primary);
+      }
+    }
+    & section {
+        display: flex;
+        gap: 2rem;
+      }
+      }
