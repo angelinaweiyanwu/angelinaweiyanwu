@@ -15,6 +15,10 @@ display: grid;
 place-items: center;
 background-color: black;
 color: rgba(255, 255, 255, 0.85);
+
+& span {
+    color: var(--primary);
+  }
 }
 
 main {
@@ -28,9 +32,7 @@ font: 0.7rem impact, sans-serif;
   margin-bottom: 2.25rem;
   color: white;
 
-  & span {
-    color: var(--primary);
-  }
+  
 }
 
 & section {
