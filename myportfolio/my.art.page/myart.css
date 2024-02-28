@@ -125,3 +125,8 @@ font-size: 1rem;
                     transform: translateX(0);
                   }
             }
+            .active .tab {
+                opacity: 1;
+                z-index: 5;}.active .tab-content {
+                animation: content 0.9s ease-out 0.4s forwards;}.active .tab-image {
+                animation: image 1s ease-out forwards;}
