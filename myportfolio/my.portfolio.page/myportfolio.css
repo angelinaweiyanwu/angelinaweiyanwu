@@ -41,7 +41,7 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
-    background-color: #987554;
+    background-color: #865d36;
     color: white;
 }
 .Hintergrund {
@@ -71,6 +71,16 @@ body {
     width: 100%;
     padding: 200px;
     margin: 0;
+}
+.middle-picture{
+  position: absolute;
+  display: flex;
+  width: 50%;
+  height: 50%;
+  right: 1%;
+  top: 170%;
+  
+  
 }
 /* bottom */
 #bottom{background-color: #e5d3b3;
