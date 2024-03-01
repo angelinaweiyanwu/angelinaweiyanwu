@@ -8,6 +8,9 @@
     height: 65px;
     align-items: center;
     padding: 40px;
+    h2 {
+      color:#987554;
+    }
 
 }
 .nav{
@@ -24,7 +27,7 @@
 nav a{
 text-decoration: none;
 font-weight: bold;
-color:white ;
+color:#987554 ;
 border-radius: 0.3em;
 }
 
