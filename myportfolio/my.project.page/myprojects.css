@@ -7,6 +7,9 @@ header {
     padding: 1.5%;
     background-color: #664229;
     margin:0;
+    h2 {
+      color: black;
+    }
   }
 
   .nav ul {
@@ -25,9 +28,6 @@ header {
     text-decoration: none;
   }
 
-
-  
-  
 *{
   margin: 0;
   padding: 0;
