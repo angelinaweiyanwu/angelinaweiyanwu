@@ -6,6 +6,9 @@ header {
     height: 65px;
     align-items: center;
     padding: 40px;
+    h1 {
+      color: black;
+    }
   }
 
   .nav ul {
@@ -71,7 +74,8 @@ body {
     padding: 200px;
     margin: 0;
     h1{
-      font-size: 80px;
+      font-size: 50px;
+      color: black;
     }
 }
 
@@ -93,7 +97,13 @@ body {
     padding: 200px;
     margin: 0;
 }
+.bottom-picture{
+  position: absolute;
+  display: flex;
+  width: 50%;
+  height: 50%;
 
+}
 
 h1{
     font-family:'Times New Roman', Times, serif;
