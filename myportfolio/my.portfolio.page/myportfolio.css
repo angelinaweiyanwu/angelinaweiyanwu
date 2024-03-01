@@ -58,14 +58,21 @@ body {
 #top{background-color:#987554;
     height: 1000px;
     width: 100%;
-    padding: 200px;
+    padding: 5%;
     margin: 0;
+}
+.top-picture img{
+  width: 30%;
+  height: 30%;
+  right: 10%;
+  
 }
 .top-picture{
   position: absolute;
-  display: flex;
-  width: 440.5px;
-  height: 243px;
+  display: block;
+}
+.text-portfolio {
+  right: 100%;
 }
 /* middle */
 #middle{background-color:#d2b48c;
