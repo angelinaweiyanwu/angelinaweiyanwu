@@ -90,12 +90,9 @@ body {
   height: 50%;
 }
 
-#s1, #s2, #s3, #s4, #s5 {
+#s1, #s2, #s3, #s4{
   width: 100%;
-  height: 100%;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-}
+  height: 100%;}
 #s2 {
   background-color: #ba9976;
   display: flex;
@@ -156,12 +153,17 @@ body {
   height: 80%;
 }
 .cvFancystuff {
-  background-color: white;
+  background-color:#b99076;
   width: 17%;
   height: 100%;
   display: inline-block;
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
+  opacity: 0.7;
+  h1{
+    color: black;
+    font-size: 400%;
+  }
 }
 .cvFancystuff p{
   font-size: 40px;
@@ -172,7 +174,7 @@ body {
   width: 80%;
   height: 100%;
   color: black;
-  background-color: #ba9976;
+  background-color: #b99076 ;
   font-size: 200%;
 }
 .cv60 {
