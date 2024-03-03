@@ -32,10 +32,10 @@ header {
     font-weight: 700;
     text-decoration: none;
   }
-  #s2{
+  #s2, #s3{
     width: 100%;
     height: 100%;}
-  #s2 {
+  #s2{
     background-color: #ba9976;
     display: flex;
     flex-direction: row;
@@ -49,6 +49,20 @@ header {
         color: black;
       }
     }
+    #s3{
+      background-color: #ba9976;
+      display: flex;
+      flex-direction: row;
+      background-color:#d2b48c;
+        height: 500px;
+        width: 100%;
+        padding: 200px;
+        margin: 0;
+        h1{
+          font-size: 50px;
+          color: black;
+        }
+      }
 .me50 {
   width: 50%;
   height: 100%;
@@ -61,6 +75,9 @@ header {
 }
 .me50 img {
   height: 400%;
+}
+.me50 img #s3 {
+  height: 200%;
 }
 .me50 p {
   color: black;
