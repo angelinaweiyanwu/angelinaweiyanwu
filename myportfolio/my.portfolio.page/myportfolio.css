@@ -50,6 +50,7 @@ body{
 .top-picture img {
   display: block; 
   margin-bottom: 10px; 
+  
 }
 /* top */
 #top{background-color:#987554;
@@ -61,23 +62,16 @@ body{
 }
 
 .top-picture img{
-  width: 30%;
-  height: 30%;
-  right: 10%;
+  width: 35%;
+  height: 35%;
   opacity: 0.7;
+  margin-right: 10%;
 }
 
 .top-picture{
   position: absolute;
   display: block;
 }
-
-.portfoliolist {
-  color: black;
-  margin-left: 40%;
-  font-size: 1000%;
-}
-
 .middle-picture{
   position: absolute;
   display: flex;
@@ -85,7 +79,8 @@ body{
   height: 50%;
   right: 1%;
   top: 170%;
-}/* bottom */
+}
+/* bottom */
 .bottom-picture{
   position: absolute;
   display: flex;
