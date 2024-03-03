@@ -167,7 +167,9 @@ body {
   float: right;
   width: 80%;
   height: 100%;
+  color: black;
   background-color: #ba9976;
+  font-size: 200%;
 }
 
 h1{
