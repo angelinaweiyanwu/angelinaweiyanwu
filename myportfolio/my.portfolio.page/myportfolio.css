@@ -37,7 +37,6 @@ header {
   }
 body{
     height: 100vh;
-    display: grid;
     place-items: center;
     background-color: #865d36;
     color: white;
