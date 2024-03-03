@@ -116,8 +116,14 @@ header {
     margin: 0;
 }
 #s4{
+  background-color: #d1b48c;
   display: flex;
   flex-direction: row;
+  background-color: #b99976;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
 }
 .me50 {
   width: 50%;
